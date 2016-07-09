@@ -1,0 +1,30 @@
+@import "./em.css";
+my-tabs .nav-tabs {
+  width: 14.4em;
+  height: 1.3em;
+}
+my-tabs .nav-tabs .ng-scope {
+  display: inline;
+  width: 3em;
+  float: left;
+  overflow: hidden;
+}
+my-tabs .nav-tabs .ng-scope:nth-child(1) .button {
+  border-radius: 15px 0px 0px 15px;
+}
+my-tabs .nav-tabs .ng-scope:nth-last-child(1) .button {
+  border-radius: 0px 15px 15px 0px;
+}
+my-tabs .nav-tabs .ng-scope .button {
+  border-style: solid;
+  border-width: 1px;
+}
+my-tabs .nav-tabs .ng-scope .button span {
+  font-size: 0.3em;
+}
+my-tabs .nav-tabs .ng-scope.active .button {
+  background-color: red;
+}
+my-tabs .tab-content .ng-scope {
+  font-size: 0.3em;
+}

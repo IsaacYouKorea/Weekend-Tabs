@@ -1,0 +1,84 @@
+@import "./em.css";
+
+
+//Color Code
+@Red:#FF0000;
+@Green:#00FF00;
+@Blue:#0000FF;
+@Orange:#FFA500;
+@Yellow:#FFFF00;
+@Cyan:#00FFFF;
+@Black:#000000;
+@White:#FFFFFF;
+
+
+//가로 세로 방
+
+
+my-tabs{
+	//방향
+
+	.nav-tabs{
+		
+		width: 14.4em;
+		height: 1.3em;
+
+		.ng-scope{
+
+			display: inline;
+			width:3em;
+			float: left;
+			overflow: hidden;
+
+			
+
+			&:nth-child(1){
+				.button{
+					border-radius: 15px 0px 0px 15px;
+					
+				}
+				
+			}
+
+			&:nth-last-child(1){
+				.button{
+					border-radius: 0px 15px 15px 0px;
+				}
+				
+			}
+
+			.button{
+				border-style: solid;
+				border-width: 1px;
+				span{
+					font-size: 0.3em;
+				}
+				
+			}
+
+			&.active .button{
+				background-color: red;
+			}
+
+		}
+
+
+
+
+	}
+
+	.tab-content
+	{
+		.ng-scope{
+			font-size: 0.3em;
+		}
+	}
+	
+	
+
+	
+}
+
+//디자인
+
+

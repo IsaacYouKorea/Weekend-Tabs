@@ -1,0 +1,9 @@
+{{themeColor}}
+<div class="tabbable">
+  <div class="nav nav-tabs">
+    <div ng-repeat="pane in panes" ng-class="{active:pane.selected}">
+      <div class="button noshadow waves-effect" ng-click='select(pane)' ng-mouseover='hover(pane)' ng-mouseleave='out(pane)'><span>{{pane.title}}</span></div>
+    </div>
+  </div>
+  <div class="tab-content" ng-transclude></div>
+</div>
